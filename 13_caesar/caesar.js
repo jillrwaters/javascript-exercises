@@ -23,8 +23,7 @@ const caesar = function(message, shift) {
         }
         else {
             shiftedCodes.push(x)
-        }
-                
+        }      
     }
 
     for (i in shiftedCodes){
@@ -35,8 +34,8 @@ const caesar = function(message, shift) {
 };
 
 
-// caesar("hey", 4)
-// caesar('A', 1)
+caesar("hey", 4)
+caesar('A', 1)
 caesar('Mjqqt!', -5)
 caesar('Hello, World!', 75)
 
